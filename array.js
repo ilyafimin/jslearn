@@ -118,3 +118,22 @@ let usersMapped = users.map((item) => {
 function sortByAge(arr) {
 	return arr.sort((elem1 , elem2) => elem1.age > elem2.age);
 }
+
+//8
+
+function shuffle(arr) {
+	return arr
+  	.sort((a,b) => a * Math.random() - b * Math.random())
+}
+
+//9
+function getAverageAge(arr) {
+    return arr
+    .map((item) => item.age)
+    .reduce((previous, item) => (previous + item)) / arr.length;
+}
+
+//10
+function unique(arr) {
+	return new Set(arr);
+}
