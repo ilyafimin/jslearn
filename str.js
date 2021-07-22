@@ -10,7 +10,7 @@ alert(str.slice(4,7));
 alert(str.substring(0,4));
 
 //str.substr(start [, length])
-alert(str.substr(0, 7));
+alert(str.substr(0, 1));
 
 // str.codePointAt(pos)
 //Возвращает код для символа, находящегося на позиции pos:
