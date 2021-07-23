@@ -137,3 +137,7 @@ function getAverageAge(arr) {
 function unique(arr) {
 	return new Set(arr);
 }
+
+//Array.from(obj[, mapFn, thisArg])
+//Есть универсальный метод Array.from, который принимает итерируемый объект или псевдомассив и делает из него «настоящий» Array. После этого мы уже можем использовать методы массивов.
+
