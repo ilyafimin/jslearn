@@ -5,3 +5,9 @@
     Object.keys(obj) – возвращает массив ключей.
     Object.values(obj) – возвращает массив значений.
     Object.entries(obj) – возвращает массив пар [ключ, значение].
+
+
+//2 
+function count(obj) {
+	return Object.keys(obj).length;
+}
