@@ -141,3 +141,16 @@ function unique(arr) {
 //Array.from(obj[, mapFn, thisArg])
 //Есть универсальный метод Array.from, который принимает итерируемый объект или псевдомассив и делает из него «настоящий» Array. После этого мы уже можем использовать методы массивов.
 
+//Codeward
+
+let arr = [];
+function off(number) {
+  if ((number === 1) || (Math.sqrt(number)**2 === number)) {
+    arr.push(number);
+  }
+  return arr;
+}
+alert(off(1));
+alert(off(4));
+alert(off(9));
+alert(arr);
